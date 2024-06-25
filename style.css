@@ -163,3 +163,185 @@ cursor: pointer;
         position: relative;
         left: 80%;
     }
+     .button1:hover {
+        padding-left:30px;padding-right:30px;padding-top:20px;padding-bottom:20px;
+        color:white;background:center;background-color:indigo;
+        border-style:double;
+        font-size:20px;
+    }
+    .inAbout{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    .main h1 {
+   
+    color:  rgb(7, 28, 76);
+    font-size: 2.2em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: -40px;
+    color: rgb(1, 5, 45);
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.name h2{
+direction:rtl;
+}
+
+.main-bot{
+
+    color: #fff;
+    background-color: rgb(71, 71, 78);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 1.7s ease;
+}
+.main-bot:hover{
+    background-color: #072e5a ;
+    transform: scale(1.1);
+}
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 7, 69);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.sa{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.hu{
+    background-color: #dee4eb;
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(1 1 1 / 40%);
+    border-radius: 10%;
+    padding: 10px;
+    margin:10px ;
+    transition: 1.7s ease;
+    font-size: 1.1em;
+    text-align: center;
+    color: #072e5a;
+    margin: 10px;
+    font-weight: 900;
+    padding-bottom: 40px ;
+    padding-top: 40px;
+}
+.hu:hover{
+transform: scale(1.1);
+
+}
+.we{
+ color: #125cab;
+}
+.aboutTable{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border:hidden;
+}
+.aboutTable td, .aboutTable th {
+    padding: 10px; /* Optional: To add padding to table cells */
+    text-align: center; /* Center text inside table cells */
+    border: hidden;
+}
+.button1 {
+    padding: 20px 30px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    font-size: 20px;
+}
+#myForm {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #c1e1ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+#myForm h2 {
+    text-align: center;
+    color: #1e90ff;
+}
+
+#myForm label {
+    color: #1e90ff;
+    display: block;
+    margin-top: 10px;
+}
+
+#myForm input[type="text"],
+#myForm input[type="date"],
+#myForm input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #c1e1ff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#myForm input[type="submit"],
+#myForm button {
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#myForm input[type="submit"]:hover,
+#myForm button:hover {
+    background-color: #1c86ee;
+}
+
+#sidePanels {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#display {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #c1e1ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+#display #selectedValues,
+#display #totalValue {
+    margin-top: 10px;
+    color: #1e90ff;
+}
+#myInput
+{
+    width : 500px;
+}
